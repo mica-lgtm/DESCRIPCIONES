@@ -1,0 +1,45 @@
+MAPEO DE PRODUCTOS A IMÁGENES
+================================
+
+MATCHES PERFECTOS:
+- camisa-brisa-bsasy → camisa-brisa.png ✓
+- camisa-cultura-azul-132xi → camisa-cultura-azul.png ✓
+- camisa-cultura-bordo-oscuro-ryvyw → camisa-cultura-bordo-oscuro.png ✓
+- camisa-cultura-celeste-n5r3f → camisa-cultura-celeste.png ✓
+- camisa-cultura-choco-y-beige-1cr74 → camisa-cultura-choco-y-beige.png ✓
+- camisa-cumbre-chocolate-w081t → camisa-cumbre-chocolate.png ✓
+- camisa-cumbre-negro-1468a → camisa-cumbre-negro.png ✓
+- camisa-cumbre-vino-15d85 → camisa-cumbre-vino.png ✓
+- camisa-noble-azul-cpsuf → camisa-noble-azul.png ✓
+- camisa-relieve-r6b2k → camisa-relieve.png ✓
+- camisa-rose-1nej4 → camisa-rose.png ✓
+- camisa-rouge → camisa-rouge.png ✓
+- camisa-syrah-yrn0j → camisa-syrah.png ✓
+- camisa-vendimia-beige-6lpsw → camisa-vendimia-beige.png ✓
+- camisa-vendimia-blanco-rc3eu → camisa-vendimia-blanco.png ✓
+- camisa-vendimia-celeste-vmb1i → camisa-vendimia-celeste.png ✓
+- camisa-vint-blanco-1ku01 → camisa-vint-blanco.png ✓
+- camisa-vint-negro-nn2wt → camisa-vint-negro.png ✓
+- musculosa-lencera-tordillo-arena-1rni8 → musculosa-lencera-tordillo-arena.png ✓
+- musculosa-lencera-tordillo-natural-kgaql → musculosa-lencera-tordillo-natural.png ✓
+- musculosa-lencera-tordillo-negro-39i0f → musculosa-lencera-tordillo-negro.png ✓
+- musculosa-malbec-azul-1twvl → musculosa-malbec-azul.png ✓
+- musculosa-malbec-bordo-1f9ai → musculosa-malbec-bordo.png ✓
+- musculosa-malbec-chocolate-7pzui → musculosa-malbec-chocolate.png ✓
+- musculosa-malbec-crudo-zng8v → musculosa-malbec-crudo.png ✓
+- musculosa-malbec-negro-u3uxt → musculosa-malbec-negro.png ✓
+- musculosa-origen-beige-chdhp → musculosa-origen-beige.png ✓
+- musculosa-origen-chocolate-19hz6 → musculosa-origen-chocolate.png ✓
+- musculosa-origen-negro-14bvm → musculosa-origen-negro.png ✓
+
+PARCIALES/PENDIENTES:
+- camisa-cultura-beige-43tln → ? (existe camisa-cultura-beige.png pero el ID tiene sufijo diferente)
+- camisa-cumbre-beige-1bcqp → ? (el CSV dice "Cumbre Chocolate con Leche", existe camisa-cumbre-chocolate-con-leche.png)
+
+SIN IMAGEN IDENTIFICADA:
+- camisa-carolina → no hay imagen
+- camisa-lidia → no hay imagen
+- camisa-violeta-negro → no hay imagen
+
+IMÁGENES SIN PRODUCTO ASOCIADO (en el CSV actual):
+- ninguna
