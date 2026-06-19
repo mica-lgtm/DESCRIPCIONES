@@ -10,7 +10,7 @@ import re
 import io
 
 INPUT_CSV  = '/root/.claude/uploads/f65578b5-cc43-5cfd-a6c9-166cbe2a0b7b/52a467ef-tiendanube60149617817924885958912531303063382.csv'
-OUTPUT_CSV = '/home/user/DESCRIPCIONES/simona/basicos-con-template.csv'
+OUTPUT_CSV = '/home/user/DESCRIPCIONES/simona/Nuevas/tiendanube-basicos-actualizado.csv'
 CDN_BASE   = 'https://d1a9qnv764bsoo.cloudfront.net/stores/601/496/rte/'
 
 IMAGE_MAP = {
