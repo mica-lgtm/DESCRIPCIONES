@@ -250,108 +250,113 @@ def parse_description(html):
 
     return data
 
-# ── Constructor de HTML ───────────────────────────────────────────────────────
+# ── Constructor de HTML (idéntico a generar_plantilla.py) ────────────────────
 
-def build_html(nombre, data, img_url, season='B&aacute;sicos', is_pack=False):
+def build_html(nombre, data, img_url, season='Básicos', is_pack=False):
     tagline = data['tagline'] or ''
-    tagline_quoted = f'&ldquo;{tagline}&rdquo;' if tagline else ''
+    tagline_quoted = f'"{tagline}"' if tagline else '""'
 
     campos = [
-        ('Material',      data['material']),
-        ('Dise&ntilde;o', data['diseno']),
-        ('Detalles',      data['detalles']),
-        ('Calce',         data['calce']),
-        ('Estilo',        data['estilo']),
+        ('Material', data['material']),
+        ('Diseño',   data['diseno']),
+        ('Calce',    data['calce']),
+        ('Estilo',   data['estilo']),
     ]
+    if data.get('detalles'):
+        campos.insert(2, ('Detalles', data['detalles']))
     campos = [(k, v) for k, v in campos if v]
 
     filas = []
     for idx, (key, value) in enumerate(campos):
-        border = 'border-bottom: 1px solid #f0efec;' if idx < len(campos) - 1 else ''
-        tr_open = f'<tr style="{border}">' if border else '<tr>'
+        border = 'border-bottom:1px solid #f0efec;' if idx < len(campos) - 1 else ''
         filas.append(
-            tr_open
-            + f'<td style="padding: 12px 0; width: 100px; vertical-align: top;">'
-            f'<span style="font-size: 9px; font-weight: bold; letter-spacing: 1.5px; text-transform: uppercase; color: #a2897b;">{key}</span>'
-            f'</td>'
-            f'<td style="padding: 12px 0; font-size: 13px; color: #444; line-height: 1.6;">{value}</td>'
-            f'</tr>'
+            f'''    <tr style="{border}">
+      <td style="padding:12px 0;width:100px;vertical-align:top;">
+        <span style="font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#A2897B;">{key}</span>
+      </td>
+      <td style="padding:12px 0;font-size:13px;color:#444;line-height:1.6;">
+        {value}
+      </td>
+    </tr>'''
         )
 
     chips = [
-        f'<span style="background: #fff; color: #555; font-size: 11px; padding: 5px 13px; letter-spacing: 0.3px;">&#10022; {c}</span>'
+        f'<span style="background:#fff;color:#555;font-size:11px;padding:5px 13px;letter-spacing:0.3px;">&#10022; {c}</span>'
         for c in data['cuidados']
     ]
-    chips_html = '\n'.join(chips)
+    chips_html = '\n    '.join(chips)
 
     ale_block = ''
     if data['ale_talle']:
-        ale_block = (
-            f'<div style="background: #90263A; padding: 14px 20px; margin-bottom: 16px; display: flex; align-items: center; gap: 14px;">'
-            f'<div style="width: 36px; height: 36px; border-radius: 50%; background: #ffffff; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">'
-            f'<span style="font-size: 14px; font-weight: bold; color: #90263a;">A</span></div>'
-            f'<div>'
-            f'<p style="font-size: 9px; letter-spacing: 2px; text-transform: uppercase; color: #d5c792; margin-bottom: 3px;">Referencia de talle</p>'
-            f'<p style="font-size: 14px; color: #ffffff; font-weight: bold; letter-spacing: 0.3px;">Ale usa talle {data["ale_talle"]} en este modelo</p>'
-            f'</div></div>'
-        )
+        ale_block = f'''
+  <!-- Referencia Ale -->
+  <div style="background:#90263A;padding:14px 20px;margin-bottom:16px;display:flex;align-items:center;gap:14px;">
+    <div style="width:36px;height:36px;border-radius:50%;background:#ffffff;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+      <span style="font-size:14px;font-weight:700;color:#90263A;">A</span>
+    </div>
+    <div>
+      <p style="font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#D5C792;margin-bottom:3px;">Referencia de talle</p>
+      <p style="font-size:14px;color:#ffffff;font-weight:700;letter-spacing:0.3px;">Ale usa talle {data["ale_talle"]} en este modelo</p>
+    </div>
+  </div>'''
 
     modelo_line = ''
     if data['modelo_nombre'] and data['modelo_talle']:
-        modelo_line = (
-            f'<p style="font-size: 11px; color: #aaa; text-align: center; margin-bottom: 10px;">'
-            f'{data["modelo_nombre"]} usa talle {data["modelo_talle"]}</p>'
-        )
+        modelo_line = f'\n  <!-- modelo -->\n  <p style="font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;">{data["modelo_nombre"]} usa talle {data["modelo_talle"]}</p>'
 
     pack_line = ''
     if is_pack:
-        pack_line = '<p style="font-size: 10px; color: #ccc; text-align: center; font-style: italic; margin: 4px 0 0;">Todas las prendas del pack son del mismo talle seleccionado.</p>'
+        pack_line = '\n  <p style="font-size:10px;color:#ccc;text-align:center;font-style:italic;margin:4px 0 0;">Todas las prendas del pack son del mismo talle seleccionado.</p>'
 
     img_section = ''
     if img_url:
-        img_section = (
-            f'<div style="background: #f7f4f1; padding: 22px 28px 18px; margin-top: 2px; border-top: 1px solid #e0dbd5;">'
-            f'<p style="font-size: 9px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; color: #90263a; margin-bottom: 14px;">Gu&iacute;a de talles</p>'
-            f'<img style="display: block; width: 100%; height: auto;" src="{img_url}" alt="Gu&iacute;a de talles {nombre}" />'
-            f'</div>'
-        )
+        img_section = f'''
+<!-- GUÍA DE TALLES -->
+<div style="background:#f7f4f1;padding:22px 28px 18px;margin-top:2px;border-top:1px solid #e0dbd5;">
+  <p style="font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#90263A;margin-bottom:14px;">Guía de talles</p>
+  <img src="{img_url}" alt="Guía de talles {nombre}" style="display:block;width:100%;height:auto;" />
+</div>'''
 
-    tagline_section = ''
-    if tagline:
-        tagline_section = (
-            f'<div style="background: #ffffff; padding: 20px 28px; border-left: 3px solid #90263A;">'
-            f'<p style="font-size: 15px; color: #333; line-height: 1.7; font-style: italic;">{tagline_quoted}</p>'
-            f'</div>'
-        )
+    return f'''<!-- HERO -->
+<div style="background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;">
+  <div style="position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);"></div>
+  <span style="display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;">{season}</span>
+  <h1 style="font-family:'Playfair Display',Georgia,serif;color:#3a2a2a;font-size:26px;font-weight:600;line-height:1.2;margin-bottom:10px;">{nombre}</h1>
+  <p style="color:#A2897B;font-size:13px;font-weight:300;letter-spacing:0.5px;font-style:italic;">{tagline}</p>
+</div>
 
-    tabla_html = '\n'.join(filas)
+<!-- TAGLINE -->
+<div style="background:#ffffff;padding:20px 28px;border-left:3px solid #90263A;">
+  <p style="font-family:'Playfair Display',Georgia,serif;font-size:15px;color:#333;line-height:1.7;font-style:italic;">
+    {tagline_quoted}
+  </p>
+</div>
 
-    return (
-        f'<div style="background: #e9eae5; padding: 36px 32px 30px; text-align: center; position: relative; overflow: hidden;">'
-        f'<div style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg,#90263A,#D5C792,#A2897B);">&nbsp;</div>'
-        f'<span style="display: inline-block; border: 1px solid #A2897B; color: #a2897b; font-size: 9px; font-weight: bold; letter-spacing: 2.5px; text-transform: uppercase; padding: 4px 14px; margin-bottom: 18px;">{season}</span>'
-        f'<h1 style="color: #3a2a2a; font-size: 26px; font-weight: 600; line-height: 1.2; margin-bottom: 10px;">{nombre}</h1>'
-        f'<p style="color: #a2897b; font-size: 13px; font-weight: 300; letter-spacing: 0.5px; font-style: italic;">{tagline}</p>'
-        f'</div>'
-        f'\n{tagline_section}\n'
-        f'<div style="background: #ffffff; padding: 24px 28px; margin-top: 2px;">'
-        f'<p style="font-size: 9px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; color: #90263a; margin-bottom: 18px;">Detalles de la prenda</p>'
-        f'<table style="width: 100%; border-collapse: collapse;"><tbody>'
-        f'\n{tabla_html}\n'
-        f'</tbody></table>'
-        f'</div>\n'
-        f'<div style="background: #e9eae5; padding: 20px 28px; margin-top: 2px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">'
-        f'<span style="font-size: 9px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; color: #90263a; flex-shrink: 0;">Cuidados</span>'
-        f'<div style="display: flex; gap: 8px; flex-wrap: wrap;">{chips_html}</div>'
-        f'</div>\n'
-        f'{img_section}\n'
-        f'<div style="background: #ffffff; padding: 20px 28px 24px; margin-top: 2px; border-bottom: 3px solid #90263A;">'
-        f'{ale_block}'
-        f'{modelo_line}'
-        f'<p style="font-size: 10px; color: #000; text-align: center; font-style: italic; margin: 0;">Todas las medidas son aproximadas y lineales. No son de contorno.</p>'
-        f'{pack_line}'
-        f'</div>'
-    )
+<!-- CARACTERÍSTICAS -->
+<div style="background:#ffffff;padding:24px 28px;margin-top:2px;">
+  <p style="font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#90263A;margin-bottom:18px;">Detalles de la prenda</p>
+
+  <table style="width:100%;border-collapse:collapse;">
+{chr(10).join(filas)}
+  </table>
+</div>
+
+<!-- CUIDADOS -->
+<div style="background:#e9eae5;padding:20px 28px;margin-top:2px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
+  <span style="font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#90263A;flex-shrink:0;">Cuidados</span>
+  <div style="display:flex;gap:8px;flex-wrap:wrap;">
+    {chips_html}
+  </div>
+</div>
+
+{img_section}
+
+<!-- NOTA FINAL -->
+<div style="background:#ffffff;padding:20px 28px 24px;margin-top:2px;border-bottom:3px solid #90263A;">
+{ale_block}
+{modelo_line}
+  <p style="font-size:10px;color:#000;text-align:center;font-style:italic;margin:0;">Todas las medidas son aproximadas y lineales. No son de contorno.</p>{pack_line}
+</div>'''
 
 # ── Procesar CSV ──────────────────────────────────────────────────────────────
 
@@ -392,9 +397,8 @@ def process():
 
         results.append(f'OK  {slug} → {img_filename} | Ale={data["ale_talle"] or "?"} | modelo={data["modelo_talle"] or "?"}')
 
-    with open(OUTPUT_CSV, 'w', encoding='cp1252', errors='replace', newline='') as f:
-        writer = csv.writer(f, delimiter=';', quoting=csv.QUOTE_MINIMAL,
-                            quotechar='"', lineterminator='\n')
+    with open(OUTPUT_CSV, 'w', encoding='utf-8-sig', newline='') as fout:
+        writer = csv.writer(fout, delimiter=';', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         writer.writerows(rows)
 
     for r in results:
