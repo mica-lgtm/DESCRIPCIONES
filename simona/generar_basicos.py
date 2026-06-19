@@ -406,9 +406,11 @@ def process():
 
         results.append(f'OK  {slug} → {img_filename} | Ale={data["ale_talle"] or "?"} | modelo={data["modelo_talle"] or "?"}')
 
-    # Escribir CSV de salida (mismo encoding que el original)
+    # Escribir CSV en el mismo formato que el original de Tienda Nube
+    # (QUOTE_MINIMAL + LF, igual que el archivo exportado)
     buf = io.StringIO()
-    writer = csv.writer(buf, delimiter=';', quoting=csv.QUOTE_ALL, lineterminator='\r\n')
+    writer = csv.writer(buf, delimiter=';', quoting=csv.QUOTE_MINIMAL,
+                        quotechar='"', lineterminator='\n')
     writer.writerows(rows)
 
     with open(OUTPUT_CSV, 'w', encoding='cp1252', errors='replace') as f:

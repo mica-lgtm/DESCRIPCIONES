@@ -1,5 +1,5 @@
-"Identificador de URL";"Nombre";"Categorías";"Nombre de propiedad 1";"Valor de propiedad 1";"Nombre de propiedad 2";"Valor de propiedad 2";"Nombre de propiedad 3";"Valor de propiedad 3";"Precio";"Precio promocional";"Peso (kg)";"Alto (cm)";"Ancho (cm)";"Profundidad (cm)";"Stock";"SKU";"Código de barras";"Mostrar en tienda";"Envío sin cargo";"Descripción";"Tags";"Título para SEO";"Descripción para SEO";"Marca";"Producto Físico";"MPN (Número de pieza del fabricante)";"Sexo";"Rango de edad";"Costo"
-"jean-nascar1";"Jean Nascar";"OTOÑO - INVIERNO > PANTALONES, OTOÑO - INVIERNO > DENIM, BASICOS";"Talle";"36";"";"";"";"";"77,500.00";"65,875.00";"0.20";"3.00";"30.00";"30.00";"25";"SIMO11398";"";"SI";"NO";"<div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
+Identificador de URL;Nombre;Categorías;Nombre de propiedad 1;Valor de propiedad 1;Nombre de propiedad 2;Valor de propiedad 2;Nombre de propiedad 3;Valor de propiedad 3;Precio;Precio promocional;Peso (kg);Alto (cm);Ancho (cm);Profundidad (cm);Stock;SKU;Código de barras;Mostrar en tienda;Envío sin cargo;Descripción;Tags;Título para SEO;Descripción para SEO;Marca;Producto Físico;MPN (Número de pieza del fabricante);Sexo;Rango de edad;Costo
+jean-nascar1;Jean Nascar;OTOÑO - INVIERNO > PANTALONES, OTOÑO - INVIERNO > DENIM, BASICOS;Talle;36;;;;;77,500.00;65,875.00;0.20;3.00;30.00;30.00;25;SIMO11398;;SI;NO;"<div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;"">Otoño · Invierno</span>
   <h1 style=""color:#3a2a2a;font-size:26px;font-weight:600;line-height:1.2;margin-bottom:10px;"">Jean Nascar</h1>
@@ -58,12 +58,12 @@
 <div style=""background:#ffffff;padding:20px 28px 24px;margin-top:2px;border-bottom:3px solid #90263A;"">
 
   <p style=""font-size:10px;color:#000;text-align:center;font-style:italic;margin:0;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
-</div>";"";"Jean Nascar Mom Fit Tiro Alto Denim Rígido Urbano y Vintage";"Descubrí el jean Nascar mom fit, tiro alto y denim rígido, que realza tu figura con estilo vintage. Sumalo a tu look urbano. ¡Elegí el tuyo y destacate!";"";"SI";"";"";"";""
-"jean-nascar1";"";"";"Talle";"38";"";"";"";"";"77,500.00";"65,875.00";"0.20";"3.00";"30.00";"30.00";"85";"SIMO11399";"";"";"";"";"";"";"";"";"";"";"";"";""
-"jean-nascar1";"";"";"Talle";"40";"";"";"";"";"77,500.00";"65,875.00";"0.20";"3.00";"30.00";"30.00";"14";"SIMO11400";"";"";"";"";"";"";"";"";"";"";"";"";""
-"jean-nascar1";"";"";"Talle";"42";"";"";"";"";"77,500.00";"65,875.00";"0.20";"3.00";"30.00";"30.00";"23";"SIMO11401";"";"";"";"";"";"";"";"";"";"";"";"";""
-"jean-nascar1";"";"";"Talle";"44";"";"";"";"";"77,500.00";"65,875.00";"0.20";"3.00";"30.00";"30.00";"0";"SIMO11402";"";"";"";"";"";"";"";"";"";"";"";"";""
-"pack-x-2-camisa-clasica";"Pack x 2 Camisa Clasica";"BASICOS";"Talle";"S";"";"";"";"";"71,500.00";"";"0.20";"2.00";"20.00";"20.00";"72";"SIMO11329";"";"SI";"NO";"<!-- HERO -->
+</div>";;Jean Nascar Mom Fit Tiro Alto Denim Rígido Urbano y Vintage;Descubrí el jean Nascar mom fit, tiro alto y denim rígido, que realza tu figura con estilo vintage. Sumalo a tu look urbano. ¡Elegí el tuyo y destacate!;;SI;;;;
+jean-nascar1;;;Talle;38;;;;;77,500.00;65,875.00;0.20;3.00;30.00;30.00;85;SIMO11399;;;;;;;;;;;;;
+jean-nascar1;;;Talle;40;;;;;77,500.00;65,875.00;0.20;3.00;30.00;30.00;14;SIMO11400;;;;;;;;;;;;;
+jean-nascar1;;;Talle;42;;;;;77,500.00;65,875.00;0.20;3.00;30.00;30.00;23;SIMO11401;;;;;;;;;;;;;
+jean-nascar1;;;Talle;44;;;;;77,500.00;65,875.00;0.20;3.00;30.00;30.00;0;SIMO11402;;;;;;;;;;;;;
+pack-x-2-camisa-clasica;Pack x 2 Camisa Clasica;BASICOS;Talle;S;;;;;71,500.00;;0.20;2.00;20.00;20.00;72;SIMO11329;;SI;NO;"<!-- HERO -->
 <div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;"">B&aacute;sicos</span>
@@ -136,11 +136,11 @@
   <p style=""font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;"">La modelo de la foto usa talle S</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;margin:4px 0 0;"">Todas las prendas del pack son del mismo talle seleccionado.</p>
-</div>";"";"Pack x 2 Camisa Clásica Rayón Twill con Bolsillo Frontal Mujer";"Pack x 2 camisa clásica de rayón twill, suave y fresca, con bolsillo. Diseño atemporal y versátil para cualquier ocasión. ¡Renová tu look hoy!";"";"SI";"";"";"";""
-"pack-x-2-camisa-clasica";"";"";"Talle";"M";"";"";"";"";"71,500.00";"";"0.20";"2.00";"20.00";"20.00";"45";"SIMO11330";"";"";"";"";"";"";"";"";"";"";"";"";""
-"pack-x-2-camisa-clasica";"";"";"Talle";"L";"";"";"";"";"71,500.00";"";"0.20";"2.00";"20.00";"20.00";"95";"SIMO11331";"";"";"";"";"";"";"";"";"";"";"";"";""
-"pack-x-2-camisa-clasica";"";"";"Talle";"XL";"";"";"";"";"71,500.00";"";"0.20";"2.00";"20.00";"20.00";"64";"SIMO11332";"";"";"";"";"";"";"";"";"";"";"";"";""
-"pack-x-3-remeras-basicas-escote-en-v";"Pack x 3 Remeras Basicas escote en V (Blanco-Negro-Gris)";"BASICOS";"Talle";"S";"";"";"";"";"59,700.00";"";"0.20";"3.00";"20.00";"20.00";"48";"SIMO10996";"";"SI";"NO";"<!-- HERO -->
+</div>";;Pack x 2 Camisa Clásica Rayón Twill con Bolsillo Frontal Mujer;Pack x 2 camisa clásica de rayón twill, suave y fresca, con bolsillo. Diseño atemporal y versátil para cualquier ocasión. ¡Renová tu look hoy!;;SI;;;;
+pack-x-2-camisa-clasica;;;Talle;M;;;;;71,500.00;;0.20;2.00;20.00;20.00;45;SIMO11330;;;;;;;;;;;;;
+pack-x-2-camisa-clasica;;;Talle;L;;;;;71,500.00;;0.20;2.00;20.00;20.00;95;SIMO11331;;;;;;;;;;;;;
+pack-x-2-camisa-clasica;;;Talle;XL;;;;;71,500.00;;0.20;2.00;20.00;20.00;64;SIMO11332;;;;;;;;;;;;;
+pack-x-3-remeras-basicas-escote-en-v;Pack x 3 Remeras Basicas escote en V (Blanco-Negro-Gris);BASICOS;Talle;S;;;;;59,700.00;;0.20;3.00;20.00;20.00;48;SIMO10996;;SI;NO;"<!-- HERO -->
 <div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;"">B&aacute;sicos</span>
@@ -219,10 +219,10 @@
   <p style=""font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;"">La modelo de la foto usa talle S</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;margin:4px 0 0;"">Todas las prendas del pack son del mismo talle seleccionado.</p>
-</div>";"";"";"";"";"SI";"";"";"";""
-"pack-x-3-remeras-basicas-escote-en-v";"";"";"Talle";"M";"";"";"";"";"59,700.00";"";"0.20";"3.00";"20.00";"20.00";"168";"SIMO10997";"";"";"";"";"";"";"";"";"";"";"";"";""
-"pack-x-3-remeras-basicas-escote-en-v";"";"";"Talle";"L";"";"";"";"";"59,700.00";"";"0.20";"3.00";"20.00";"20.00";"42";"SIMO10998";"";"";"";"";"";"";"";"";"";"";"";"";""
-"remera-basica-escote-en-v-gris";"Remera Basica escote en V Gris";"BASICOS";"Talle";"S";"";"";"";"";"24,900.00";"";"0.20";"3.00";"20.00";"20.00";"50";"SIMO10993";"";"SI";"NO";"<!-- HERO -->
+</div>";;;;;SI;;;;
+pack-x-3-remeras-basicas-escote-en-v;;;Talle;M;;;;;59,700.00;;0.20;3.00;20.00;20.00;168;SIMO10997;;;;;;;;;;;;;
+pack-x-3-remeras-basicas-escote-en-v;;;Talle;L;;;;;59,700.00;;0.20;3.00;20.00;20.00;42;SIMO10998;;;;;;;;;;;;;
+remera-basica-escote-en-v-gris;Remera Basica escote en V Gris;BASICOS;Talle;S;;;;;24,900.00;;0.20;3.00;20.00;20.00;50;SIMO10993;;SI;NO;"<!-- HERO -->
 <div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;"">B&aacute;sicos</span>
@@ -302,10 +302,10 @@
   <!-- Modelo -->
   <p style=""font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;"">La modelo de la foto usa talle S</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
-</div>";"";"";"";"";"SI";"";"";"";""
-"remera-basica-escote-en-v-gris";"";"";"Talle";"M";"";"";"";"";"24,900.00";"";"0.20";"3.00";"20.00";"20.00";"102";"SIMO10994";"";"";"";"";"";"";"";"";"";"";"";"";""
-"remera-basica-escote-en-v-gris";"";"";"Talle";"L";"";"";"";"";"24,900.00";"";"0.20";"3.00";"20.00";"20.00";"98";"SIMO10995";"";"";"";"";"";"";"";"";"";"";"";"";""
-"remera-basica-escote-en-v-blanco";"Remera Basica escote en V Blanco";"BASICOS";"Talle";"S";"";"";"";"";"24,900.00";"";"0.20";"3.00";"20.00";"20.00";"44";"SIMO10987";"";"SI";"NO";"<!-- HERO -->
+</div>";;;;;SI;;;;
+remera-basica-escote-en-v-gris;;;Talle;M;;;;;24,900.00;;0.20;3.00;20.00;20.00;102;SIMO10994;;;;;;;;;;;;;
+remera-basica-escote-en-v-gris;;;Talle;L;;;;;24,900.00;;0.20;3.00;20.00;20.00;98;SIMO10995;;;;;;;;;;;;;
+remera-basica-escote-en-v-blanco;Remera Basica escote en V Blanco;BASICOS;Talle;S;;;;;24,900.00;;0.20;3.00;20.00;20.00;44;SIMO10987;;SI;NO;"<!-- HERO -->
 <div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;"">B&aacute;sicos</span>
@@ -385,10 +385,10 @@
   <!-- Modelo -->
   <p style=""font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;"">La modelo de la foto usa talle S</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
-</div>";"";"";"";"";"SI";"";"";"";""
-"remera-basica-escote-en-v-blanco";"";"";"Talle";"M";"";"";"";"";"24,900.00";"";"0.20";"3.00";"20.00";"20.00";"100";"SIMO10988";"";"";"";"";"";"";"";"";"";"";"";"";""
-"remera-basica-escote-en-v-blanco";"";"";"Talle";"L";"";"";"";"";"24,900.00";"";"0.20";"3.00";"20.00";"20.00";"104";"SIMO10989";"";"";"";"";"";"";"";"";"";"";"";"";""
-"remera-basica-escote-en-v-negro";"Remera Basica escote en V Negro";"BASICOS";"Talle";"S";"";"";"";"";"24,900.00";"";"0.20";"3.00";"20.00";"20.00";"108";"SIMO10984";"";"SI";"NO";"<!-- HERO -->
+</div>";;;;;SI;;;;
+remera-basica-escote-en-v-blanco;;;Talle;M;;;;;24,900.00;;0.20;3.00;20.00;20.00;100;SIMO10988;;;;;;;;;;;;;
+remera-basica-escote-en-v-blanco;;;Talle;L;;;;;24,900.00;;0.20;3.00;20.00;20.00;104;SIMO10989;;;;;;;;;;;;;
+remera-basica-escote-en-v-negro;Remera Basica escote en V Negro;BASICOS;Talle;S;;;;;24,900.00;;0.20;3.00;20.00;20.00;108;SIMO10984;;SI;NO;"<!-- HERO -->
 <div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;"">B&aacute;sicos</span>
@@ -468,10 +468,10 @@
   <!-- Modelo -->
   <p style=""font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;"">La modelo de la foto usa talle S</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
-</div>";"";"";"";"";"SI";"";"";"";""
-"remera-basica-escote-en-v-negro";"";"";"Talle";"M";"";"";"";"";"24,900.00";"";"0.20";"3.00";"20.00";"20.00";"204";"SIMO10985";"";"";"";"";"";"";"";"";"";"";"";"";""
-"remera-basica-escote-en-v-negro";"";"";"Talle";"L";"";"";"";"";"24,900.00";"";"0.20";"3.00";"20.00";"20.00";"226";"SIMO10986";"";"";"";"";"";"";"";"";"";"";"";"";""
-"musculosa-abril-negro2";"Musculosa Abril Negro";"BASICOS";"Talle";"S";"";"";"";"";"23,500.00";"";"0.20";"3.00";"20.00";"20.00";"72";"SIMO10900";"";"SI";"NO";"<!-- HERO -->
+</div>";;;;;SI;;;;
+remera-basica-escote-en-v-negro;;;Talle;M;;;;;24,900.00;;0.20;3.00;20.00;20.00;204;SIMO10985;;;;;;;;;;;;;
+remera-basica-escote-en-v-negro;;;Talle;L;;;;;24,900.00;;0.20;3.00;20.00;20.00;226;SIMO10986;;;;;;;;;;;;;
+musculosa-abril-negro2;Musculosa Abril Negro;BASICOS;Talle;S;;;;;23,500.00;;0.20;3.00;20.00;20.00;72;SIMO10900;;SI;NO;"<!-- HERO -->
 <div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;"">B&aacute;sicos</span>
@@ -558,11 +558,11 @@
   <!-- Modelo -->
   <p style=""font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;"">La modelo de la foto usa talle S</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
-</div>";"";"";"";"";"SI";"";"";"";""
-"musculosa-abril-negro2";"";"";"Talle";"M";"";"";"";"";"23,500.00";"";"0.20";"3.00";"20.00";"20.00";"17";"SIMO10901";"";"";"";"";"";"";"";"";"";"";"";"";""
-"musculosa-abril-negro2";"";"";"Talle";"L";"";"";"";"";"23,500.00";"";"0.20";"3.00";"20.00";"20.00";"36";"SIMO10902";"";"";"";"";"";"";"";"";"";"";"";"";""
-"musculosa-abril-negro2";"";"";"Talle";"XL";"";"";"";"";"23,500.00";"";"0.20";"3.00";"20.00";"20.00";"32";"SIMO10903";"";"";"";"";"";"";"";"";"";"";"";"";""
-"musculosa-abril-blanco2";"Musculosa Abril Blanco";"BASICOS";"Talle";"S";"";"";"";"";"23,500.00";"";"0.20";"3.00";"20.00";"20.00";"36";"SIMO10895";"";"SI";"NO";"<!-- HERO -->
+</div>";;;;;SI;;;;
+musculosa-abril-negro2;;;Talle;M;;;;;23,500.00;;0.20;3.00;20.00;20.00;17;SIMO10901;;;;;;;;;;;;;
+musculosa-abril-negro2;;;Talle;L;;;;;23,500.00;;0.20;3.00;20.00;20.00;36;SIMO10902;;;;;;;;;;;;;
+musculosa-abril-negro2;;;Talle;XL;;;;;23,500.00;;0.20;3.00;20.00;20.00;32;SIMO10903;;;;;;;;;;;;;
+musculosa-abril-blanco2;Musculosa Abril Blanco;BASICOS;Talle;S;;;;;23,500.00;;0.20;3.00;20.00;20.00;36;SIMO10895;;SI;NO;"<!-- HERO -->
 <div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;"">B&aacute;sicos</span>
@@ -649,11 +649,11 @@
   <!-- Modelo -->
   <p style=""font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;"">La modelo de la foto usa talle S</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
-</div>";"";"";"";"";"SI";"";"";"";""
-"musculosa-abril-blanco2";"";"";"Talle";"M";"";"";"";"";"23,500.00";"";"0.20";"3.00";"20.00";"20.00";"6";"SIMO10896";"";"";"";"";"";"";"";"";"";"";"";"";""
-"musculosa-abril-blanco2";"";"";"Talle";"L";"";"";"";"";"23,500.00";"";"0.20";"3.00";"20.00";"20.00";"0";"SIMO10897";"";"";"";"";"";"";"";"";"";"";"";"";""
-"musculosa-abril-blanco2";"";"";"Talle";"XL";"";"";"";"";"23,500.00";"";"0.20";"3.00";"20.00";"20.00";"19";"SIMO10898";"";"";"";"";"";"";"";"";"";"";"";"";""
-"musculosa-abril-gris2";"Musculosa Abril Gris";"BASICOS";"Talle";"S";"";"";"";"";"23,500.00";"";"0.20";"3.00";"20.00";"20.00";"41";"SIMO10890";"";"SI";"NO";"<!-- HERO -->
+</div>";;;;;SI;;;;
+musculosa-abril-blanco2;;;Talle;M;;;;;23,500.00;;0.20;3.00;20.00;20.00;6;SIMO10896;;;;;;;;;;;;;
+musculosa-abril-blanco2;;;Talle;L;;;;;23,500.00;;0.20;3.00;20.00;20.00;0;SIMO10897;;;;;;;;;;;;;
+musculosa-abril-blanco2;;;Talle;XL;;;;;23,500.00;;0.20;3.00;20.00;20.00;19;SIMO10898;;;;;;;;;;;;;
+musculosa-abril-gris2;Musculosa Abril Gris;BASICOS;Talle;S;;;;;23,500.00;;0.20;3.00;20.00;20.00;41;SIMO10890;;SI;NO;"<!-- HERO -->
 <div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;"">B&aacute;sicos</span>
@@ -740,11 +740,11 @@
   <!-- Modelo -->
   <p style=""font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;"">La modelo de la foto usa talle S</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
-</div>";"";"";"";"";"SI";"";"";"";""
-"musculosa-abril-gris2";"";"";"Talle";"M";"";"";"";"";"23,500.00";"";"0.20";"3.00";"20.00";"20.00";"14";"SIMO10891";"";"";"";"";"";"";"";"";"";"";"";"";""
-"musculosa-abril-gris2";"";"";"Talle";"L";"";"";"";"";"23,500.00";"";"0.20";"3.00";"20.00";"20.00";"11";"SIMO10892";"";"";"";"";"";"";"";"";"";"";"";"";""
-"musculosa-abril-gris2";"";"";"Talle";"XL";"";"";"";"";"23,500.00";"";"0.20";"3.00";"20.00";"20.00";"32";"SIMO10893";"";"";"";"";"";"";"";"";"";"";"";"";""
-"musculosa-daily-negro3";"Musculosa Daily Negro";"BASICOS";"Talle";"S";"";"";"";"";"22,500.00";"";"0.20";"3.00";"20.00";"20.00";"19";"SIMO10885";"";"SI";"NO";"<!-- HERO -->
+</div>";;;;;SI;;;;
+musculosa-abril-gris2;;;Talle;M;;;;;23,500.00;;0.20;3.00;20.00;20.00;14;SIMO10891;;;;;;;;;;;;;
+musculosa-abril-gris2;;;Talle;L;;;;;23,500.00;;0.20;3.00;20.00;20.00;11;SIMO10892;;;;;;;;;;;;;
+musculosa-abril-gris2;;;Talle;XL;;;;;23,500.00;;0.20;3.00;20.00;20.00;32;SIMO10893;;;;;;;;;;;;;
+musculosa-daily-negro3;Musculosa Daily Negro;BASICOS;Talle;S;;;;;22,500.00;;0.20;3.00;20.00;20.00;19;SIMO10885;;SI;NO;"<!-- HERO -->
 <div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;"">B&aacute;sicos</span>
@@ -831,11 +831,11 @@
   <!-- Modelo -->
   <p style=""font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;"">La modelo de la foto usa talle S</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
-</div>";"";"";"";"";"SI";"";"";"";""
-"musculosa-daily-negro3";"";"";"Talle";"M";"";"";"";"";"22,500.00";"";"0.20";"3.00";"20.00";"20.00";"51";"SIMO10886";"";"";"";"";"";"";"";"";"";"";"";"";""
-"musculosa-daily-negro3";"";"";"Talle";"L";"";"";"";"";"22,500.00";"";"0.20";"3.00";"20.00";"20.00";"33";"SIMO10887";"";"";"";"";"";"";"";"";"";"";"";"";""
-"musculosa-daily-negro3";"";"";"Talle";"XL";"";"";"";"";"22,500.00";"";"0.20";"3.00";"20.00";"20.00";"33";"SIMO10888";"";"";"";"";"";"";"";"";"";"";"";"";""
-"musculosa-daily-gris1";"Musculosa Daily Gris";"BASICOS";"Talle";"S";"";"";"";"";"22,500.00";"";"0.20";"3.00";"20.00";"20.00";"19";"SIMO10880";"";"SI";"NO";"<!-- HERO -->
+</div>";;;;;SI;;;;
+musculosa-daily-negro3;;;Talle;M;;;;;22,500.00;;0.20;3.00;20.00;20.00;51;SIMO10886;;;;;;;;;;;;;
+musculosa-daily-negro3;;;Talle;L;;;;;22,500.00;;0.20;3.00;20.00;20.00;33;SIMO10887;;;;;;;;;;;;;
+musculosa-daily-negro3;;;Talle;XL;;;;;22,500.00;;0.20;3.00;20.00;20.00;33;SIMO10888;;;;;;;;;;;;;
+musculosa-daily-gris1;Musculosa Daily Gris;BASICOS;Talle;S;;;;;22,500.00;;0.20;3.00;20.00;20.00;19;SIMO10880;;SI;NO;"<!-- HERO -->
 <div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;"">B&aacute;sicos</span>
@@ -922,11 +922,11 @@
   <!-- Modelo -->
   <p style=""font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;"">La modelo de la foto usa talle S</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
-</div>";"";"";"";"";"SI";"";"";"";""
-"musculosa-daily-gris1";"";"";"Talle";"M";"";"";"";"";"22,500.00";"";"0.20";"3.00";"20.00";"20.00";"50";"SIMO10881";"";"";"";"";"";"";"";"";"";"";"";"";""
-"musculosa-daily-gris1";"";"";"Talle";"L";"";"";"";"";"22,500.00";"";"0.20";"3.00";"20.00";"20.00";"48";"SIMO10882";"";"";"";"";"";"";"";"";"";"";"";"";""
-"musculosa-daily-gris1";"";"";"Talle";"XL";"";"";"";"";"22,500.00";"";"0.20";"3.00";"20.00";"20.00";"43";"SIMO10883";"";"";"";"";"";"";"";"";"";"";"";"";""
-"musculosa-daily-blanco3";"Musculosa Daily Blanco";"BASICOS";"Talle";"S";"";"";"";"";"22,500.00";"";"0.20";"3.00";"20.00";"20.00";"9";"SIMO10876";"";"SI";"NO";"<!-- HERO -->
+</div>";;;;;SI;;;;
+musculosa-daily-gris1;;;Talle;M;;;;;22,500.00;;0.20;3.00;20.00;20.00;50;SIMO10881;;;;;;;;;;;;;
+musculosa-daily-gris1;;;Talle;L;;;;;22,500.00;;0.20;3.00;20.00;20.00;48;SIMO10882;;;;;;;;;;;;;
+musculosa-daily-gris1;;;Talle;XL;;;;;22,500.00;;0.20;3.00;20.00;20.00;43;SIMO10883;;;;;;;;;;;;;
+musculosa-daily-blanco3;Musculosa Daily Blanco;BASICOS;Talle;S;;;;;22,500.00;;0.20;3.00;20.00;20.00;9;SIMO10876;;SI;NO;"<!-- HERO -->
 <div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;"">B&aacute;sicos</span>
@@ -1013,11 +1013,11 @@
   <!-- Modelo -->
   <p style=""font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;"">La modelo de la foto usa talle S</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
-</div>";"";"";"";"";"SI";"";"";"";""
-"musculosa-daily-blanco3";"";"";"Talle";"M";"";"";"";"";"22,500.00";"";"0.20";"3.00";"20.00";"20.00";"15";"SIMO10877";"";"";"";"";"";"";"";"";"";"";"";"";""
-"musculosa-daily-blanco3";"";"";"Talle";"L";"";"";"";"";"22,500.00";"";"0.20";"3.00";"20.00";"20.00";"14";"SIMO10878";"";"";"";"";"";"";"";"";"";"";"";"";""
-"musculosa-daily-blanco3";"";"";"Talle";"XL";"";"";"";"";"22,500.00";"";"0.20";"3.00";"20.00";"20.00";"3";"SIMO10879";"";"";"";"";"";"";"";"";"";"";"";"";""
-"pack-x2-top-mina";"Pack x2 Top Mina";"BASICOS";"Talle";"S/M";"";"";"";"";"34,900.00";"";"0.20";"3.00";"20.00";"20.00";"20";"SIMO10873";"";"SI";"NO";"<!-- HERO -->
+</div>";;;;;SI;;;;
+musculosa-daily-blanco3;;;Talle;M;;;;;22,500.00;;0.20;3.00;20.00;20.00;15;SIMO10877;;;;;;;;;;;;;
+musculosa-daily-blanco3;;;Talle;L;;;;;22,500.00;;0.20;3.00;20.00;20.00;14;SIMO10878;;;;;;;;;;;;;
+musculosa-daily-blanco3;;;Talle;XL;;;;;22,500.00;;0.20;3.00;20.00;20.00;3;SIMO10879;;;;;;;;;;;;;
+pack-x2-top-mina;Pack x2 Top Mina;BASICOS;Talle;S/M;;;;;34,900.00;;0.20;3.00;20.00;20.00;20;SIMO10873;;SI;NO;"<!-- HERO -->
 <div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;"">B&aacute;sicos</span>
@@ -1105,9 +1105,9 @@
   <p style=""font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;"">La modelo de la foto usa talle S</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;margin:4px 0 0;"">Todas las prendas del pack son del mismo talle seleccionado.</p>
-</div>";"";"";"";"";"SI";"";"";"";""
-"pack-x2-top-mina";"";"";"Talle";"L/XL";"";"";"";"";"34,900.00";"";"0.20";"3.00";"20.00";"20.00";"22";"SIMO10874";"";"";"";"";"";"";"";"";"";"";"";"";""
-"pack-x-3-musculosa-daily1";"Pack x 3 Musculosa Daily";"BASICOS";"Talle";"S";"";"";"";"";"50,900.00";"";"0.20";"2.00";"20.00";"20.00";"18";"SIMO10869";"";"SI";"NO";"<!-- HERO -->
+</div>";;;;;SI;;;;
+pack-x2-top-mina;;;Talle;L/XL;;;;;34,900.00;;0.20;3.00;20.00;20.00;22;SIMO10874;;;;;;;;;;;;;
+pack-x-3-musculosa-daily1;Pack x 3 Musculosa Daily;BASICOS;Talle;S;;;;;50,900.00;;0.20;2.00;20.00;20.00;18;SIMO10869;;SI;NO;"<!-- HERO -->
 <div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;"">B&aacute;sicos</span>
@@ -1195,11 +1195,11 @@
   <p style=""font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;"">La modelo de la foto usa talle S</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;margin:4px 0 0;"">Todas las prendas del pack son del mismo talle seleccionado.</p>
-</div>";"";"";"";"";"SI";"";"";"";""
-"pack-x-3-musculosa-daily1";"";"";"Talle";"M";"";"";"";"";"50,900.00";"";"0.20";"2.00";"20.00";"20.00";"0";"SIMO10870";"";"";"";"";"";"";"";"";"";"";"";"";""
-"pack-x-3-musculosa-daily1";"";"";"Talle";"L";"";"";"";"";"50,900.00";"";"0.20";"2.00";"20.00";"20.00";"0";"SIMO10871";"";"";"";"";"";"";"";"";"";"";"";"";""
-"pack-x-3-musculosa-daily1";"";"";"Talle";"XL";"";"";"";"";"50,900.00";"";"0.20";"2.00";"20.00";"20.00";"8";"SIMO10872";"";"";"";"";"";"";"";"";"";"";"";"";""
-"pack-x-3-musculosa-abril1";"Pack x 3 Musculosa Abril";"BASICOS";"Talle";"S";"";"";"";"";"56,500.00";"";"0.20";"2.00";"20.00";"20.00";"57";"SIMO10864";"";"SI";"NO";"<!-- HERO -->
+</div>";;;;;SI;;;;
+pack-x-3-musculosa-daily1;;;Talle;M;;;;;50,900.00;;0.20;2.00;20.00;20.00;0;SIMO10870;;;;;;;;;;;;;
+pack-x-3-musculosa-daily1;;;Talle;L;;;;;50,900.00;;0.20;2.00;20.00;20.00;0;SIMO10871;;;;;;;;;;;;;
+pack-x-3-musculosa-daily1;;;Talle;XL;;;;;50,900.00;;0.20;2.00;20.00;20.00;8;SIMO10872;;;;;;;;;;;;;
+pack-x-3-musculosa-abril1;Pack x 3 Musculosa Abril;BASICOS;Talle;S;;;;;56,500.00;;0.20;2.00;20.00;20.00;57;SIMO10864;;SI;NO;"<!-- HERO -->
 <div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;"">B&aacute;sicos</span>
@@ -1281,11 +1281,11 @@
   <p style=""font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;"">La modelo de la foto usa talle S</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;margin:4px 0 0;"">Todas las prendas del pack son del mismo talle seleccionado.</p>
-</div>";"";"";"";"";"SI";"";"";"";""
-"pack-x-3-musculosa-abril1";"";"";"Talle";"M";"";"";"";"";"56,500.00";"";"0.20";"2.00";"20.00";"20.00";"15";"SIMO10865";"";"";"";"";"";"";"";"";"";"";"";"";""
-"pack-x-3-musculosa-abril1";"";"";"Talle";"L";"";"";"";"";"56,500.00";"";"0.20";"2.00";"20.00";"20.00";"9";"SIMO10866";"";"";"";"";"";"";"";"";"";"";"";"";""
-"pack-x-3-musculosa-abril1";"";"";"Talle";"XL";"";"";"";"";"56,500.00";"";"0.20";"2.00";"20.00";"20.00";"0";"SIMO10867";"";"";"";"";"";"";"";"";"";"";"";"";""
-"pack-x-3-remeras-basicas";"Pack x 3 Remeras Basicas (Blanco-Negro-Gris)";"BASICOS";"Talle";"S";"";"";"";"";"59,700.00";"";"0.20";"2.00";"20.00";"20.00";"31";"SIMO10810";"";"SI";"NO";"<!-- HERO -->
+</div>";;;;;SI;;;;
+pack-x-3-musculosa-abril1;;;Talle;M;;;;;56,500.00;;0.20;2.00;20.00;20.00;15;SIMO10865;;;;;;;;;;;;;
+pack-x-3-musculosa-abril1;;;Talle;L;;;;;56,500.00;;0.20;2.00;20.00;20.00;9;SIMO10866;;;;;;;;;;;;;
+pack-x-3-musculosa-abril1;;;Talle;XL;;;;;56,500.00;;0.20;2.00;20.00;20.00;0;SIMO10867;;;;;;;;;;;;;
+pack-x-3-remeras-basicas;Pack x 3 Remeras Basicas (Blanco-Negro-Gris);BASICOS;Talle;S;;;;;59,700.00;;0.20;2.00;20.00;20.00;31;SIMO10810;;SI;NO;"<!-- HERO -->
 <div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;"">B&aacute;sicos</span>
@@ -1367,10 +1367,10 @@
   <p style=""font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;"">La modelo de la foto usa talle S</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;margin:4px 0 0;"">Todas las prendas del pack son del mismo talle seleccionado.</p>
-</div>";"";"";"";"";"SI";"";"";"";""
-"pack-x-3-remeras-basicas";"";"";"Talle";"M";"";"";"";"";"59,700.00";"";"0.20";"2.00";"20.00";"20.00";"163";"SIMO10811";"";"";"";"";"";"";"";"";"";"";"";"";""
-"pack-x-3-remeras-basicas";"";"";"Talle";"L";"";"";"";"";"59,700.00";"";"0.20";"2.00";"20.00";"20.00";"33";"SIMO10812";"";"";"";"";"";"";"";"";"";"";"";"";""
-"top-mina-negro";"Top Mina Negro";"BASICOS";"Talle";"S/M";"";"";"";"";"21,500.00";"";"0.20";"2.00";"20.00";"20.00";"9";"SIMO10803";"";"SI";"NO";"<!-- HERO -->
+</div>";;;;;SI;;;;
+pack-x-3-remeras-basicas;;;Talle;M;;;;;59,700.00;;0.20;2.00;20.00;20.00;163;SIMO10811;;;;;;;;;;;;;
+pack-x-3-remeras-basicas;;;Talle;L;;;;;59,700.00;;0.20;2.00;20.00;20.00;33;SIMO10812;;;;;;;;;;;;;
+top-mina-negro;Top Mina Negro;BASICOS;Talle;S/M;;;;;21,500.00;;0.20;2.00;20.00;20.00;9;SIMO10803;;SI;NO;"<!-- HERO -->
 <div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;"">B&aacute;sicos</span>
@@ -1457,9 +1457,9 @@
   <!-- Modelo -->
   <p style=""font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;"">La modelo de la foto usa talle S</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
-</div>";"";"";"";"";"SI";"";"";"";""
-"top-mina-negro";"";"";"Talle";"L/XL";"";"";"";"";"21,500.00";"";"0.20";"2.00";"20.00";"20.00";"0";"SIMO10804";"";"";"";"";"";"";"";"";"";"";"";"";""
-"top-mina-blanco";"Top Mina Blanco";"BASICOS";"Talle";"S/M";"";"";"";"";"20,500.00";"";"0.20";"2.00";"20.00";"20.00";"12";"SIMO10801";"";"SI";"NO";"<!-- HERO -->
+</div>";;;;;SI;;;;
+top-mina-negro;;;Talle;L/XL;;;;;21,500.00;;0.20;2.00;20.00;20.00;0;SIMO10804;;;;;;;;;;;;;
+top-mina-blanco;Top Mina Blanco;BASICOS;Talle;S/M;;;;;20,500.00;;0.20;2.00;20.00;20.00;12;SIMO10801;;SI;NO;"<!-- HERO -->
 <div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;"">B&aacute;sicos</span>
@@ -1546,9 +1546,9 @@
   <!-- Modelo -->
   <p style=""font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;"">La modelo de la foto usa talle S</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
-</div>";"";"";"";"";"SI";"";"";"";""
-"top-mina-blanco";"";"";"Talle";"L/XL";"";"";"";"";"20,500.00";"";"0.20";"2.00";"20.00";"20.00";"7";"SIMO10802";"";"";"";"";"";"";"";"";"";"";"";"";""
-"remera-basica-gris";"Remera Basica Gris";"BASICOS";"Talle";"S";"";"";"";"";"24,900.00";"";"0.20";"3.00";"20.00";"20.00";"54";"SIMO10780";"";"SI";"NO";"<!-- HERO -->
+</div>";;;;;SI;;;;
+top-mina-blanco;;;Talle;L/XL;;;;;20,500.00;;0.20;2.00;20.00;20.00;7;SIMO10802;;;;;;;;;;;;;
+remera-basica-gris;Remera Basica Gris;BASICOS;Talle;S;;;;;24,900.00;;0.20;3.00;20.00;20.00;54;SIMO10780;;SI;NO;"<!-- HERO -->
 <div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;"">B&aacute;sicos</span>
@@ -1626,10 +1626,10 @@
   <!-- Modelo -->
   <p style=""font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;"">La modelo de la foto usa talle S</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
-</div>";"";"";"";"";"SI";"";"";"";""
-"remera-basica-gris";"";"";"Talle";"M";"";"";"";"";"24,900.00";"";"0.20";"3.00";"20.00";"20.00";"119";"SIMO10781";"";"";"";"";"";"";"";"";"";"";"";"";""
-"remera-basica-gris";"";"";"Talle";"L";"";"";"";"";"24,900.00";"";"0.20";"3.00";"20.00";"20.00";"126";"SIMO10782";"";"";"";"";"";"";"";"";"";"";"";"";""
-"jean-imola";"Jean Imola";"OTOÑO - INVIERNO > PANTALONES, OTOÑO - INVIERNO > DENIM, BASICOS";"Talle";"34";"";"";"";"";"79,990.00";"67,992.00";"0.30";"3.00";"30.00";"30.00";"0";"SIMO10602";"";"SI";"NO";"<div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
+</div>";;;;;SI;;;;
+remera-basica-gris;;;Talle;M;;;;;24,900.00;;0.20;3.00;20.00;20.00;119;SIMO10781;;;;;;;;;;;;;
+remera-basica-gris;;;Talle;L;;;;;24,900.00;;0.20;3.00;20.00;20.00;126;SIMO10782;;;;;;;;;;;;;
+jean-imola;Jean Imola;OTOÑO - INVIERNO > PANTALONES, OTOÑO - INVIERNO > DENIM, BASICOS;Talle;34;;;;;79,990.00;67,992.00;0.30;3.00;30.00;30.00;0;SIMO10602;;SI;NO;"<div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;"">Otoño · Invierno</span>
   <h1 style=""color:#3a2a2a;font-size:26px;font-weight:600;line-height:1.2;margin-bottom:10px;"">Jean Imola</h1>
@@ -1672,13 +1672,13 @@
 <div style=""background:#ffffff;padding:20px 28px 24px;margin-top:2px;border-bottom:3px solid #90263A;"">
 
   <p style=""font-size:10px;color:#000;text-align:center;font-style:italic;margin:0;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
-</div>";"";"";"";"";"SI";"";"";"";""
-"jean-imola";"";"";"Talle";"36";"";"";"";"";"79,990.00";"67,992.00";"0.30";"3.00";"30.00";"30.00";"8";"SIMO10603";"";"";"";"";"";"";"";"";"";"";"";"";""
-"jean-imola";"";"";"Talle";"38";"";"";"";"";"79,990.00";"67,992.00";"0.30";"3.00";"30.00";"30.00";"25";"SIMO10605";"";"";"";"";"";"";"";"";"";"";"";"";""
-"jean-imola";"";"";"Talle";"40";"";"";"";"";"79,990.00";"67,992.00";"0.30";"3.00";"30.00";"30.00";"24";"SIMO10606";"";"";"";"";"";"";"";"";"";"";"";"";""
-"jean-imola";"";"";"Talle";"42";"";"";"";"";"79,990.00";"67,992.00";"0.30";"3.00";"30.00";"30.00";"26";"SIMO10607";"";"";"";"";"";"";"";"";"";"";"";"";""
-"jean-imola";"";"";"Talle";"44";"";"";"";"";"79,990.00";"67,992.00";"0.30";"3.00";"30.00";"30.00";"0";"SIMO13043";"";"";"";"";"";"";"";"";"";"";"";"";""
-"camisa-clasica-negro";"Camisa Clasica Negro";"BASICOS";"Talle";"S";"";"";"";"";"44,500.00";"";"0.20";"2.00";"20.00";"20.00";"141";"SIMO10189";"";"SI";"NO";"<!-- HERO -->
+</div>";;;;;SI;;;;
+jean-imola;;;Talle;36;;;;;79,990.00;67,992.00;0.30;3.00;30.00;30.00;8;SIMO10603;;;;;;;;;;;;;
+jean-imola;;;Talle;38;;;;;79,990.00;67,992.00;0.30;3.00;30.00;30.00;25;SIMO10605;;;;;;;;;;;;;
+jean-imola;;;Talle;40;;;;;79,990.00;67,992.00;0.30;3.00;30.00;30.00;24;SIMO10606;;;;;;;;;;;;;
+jean-imola;;;Talle;42;;;;;79,990.00;67,992.00;0.30;3.00;30.00;30.00;26;SIMO10607;;;;;;;;;;;;;
+jean-imola;;;Talle;44;;;;;79,990.00;67,992.00;0.30;3.00;30.00;30.00;0;SIMO13043;;;;;;;;;;;;;
+camisa-clasica-negro;Camisa Clasica Negro;BASICOS;Talle;S;;;;;44,500.00;;0.20;2.00;20.00;20.00;141;SIMO10189;;SI;NO;"<!-- HERO -->
 <div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;"">B&aacute;sicos</span>
@@ -1758,11 +1758,11 @@
   <!-- Modelo -->
   <p style=""font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;"">La modelo de la foto usa talle S</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
-</div>";"";"";"";"";"SI";"";"";"";""
-"camisa-clasica-negro";"";"";"Talle";"M";"";"";"";"";"44,500.00";"";"0.20";"2.00";"20.00";"20.00";"119";"SIMO10190";"";"";"";"";"";"";"";"";"";"";"";"";""
-"camisa-clasica-negro";"";"";"Talle";"L";"";"";"";"";"44,500.00";"";"0.20";"2.00";"20.00";"20.00";"17";"SIMO10191";"";"";"";"";"";"";"";"";"";"";"";"";""
-"camisa-clasica-negro";"";"";"Talle";"XL";"";"";"";"";"44,500.00";"";"0.20";"2.00";"20.00";"20.00";"94";"SIMO10192";"";"";"";"";"";"";"";"";"";"";"";"";""
-"camisa-clasica-blanco";"Camisa Clasica Blanco";"BASICOS";"Talle";"S";"";"";"";"";"44,500.00";"";"0.20";"2.00";"20.00";"20.00";"104";"SIMO10177";"";"SI";"NO";"<!-- HERO -->
+</div>";;;;;SI;;;;
+camisa-clasica-negro;;;Talle;M;;;;;44,500.00;;0.20;2.00;20.00;20.00;119;SIMO10190;;;;;;;;;;;;;
+camisa-clasica-negro;;;Talle;L;;;;;44,500.00;;0.20;2.00;20.00;20.00;17;SIMO10191;;;;;;;;;;;;;
+camisa-clasica-negro;;;Talle;XL;;;;;44,500.00;;0.20;2.00;20.00;20.00;94;SIMO10192;;;;;;;;;;;;;
+camisa-clasica-blanco;Camisa Clasica Blanco;BASICOS;Talle;S;;;;;44,500.00;;0.20;2.00;20.00;20.00;104;SIMO10177;;SI;NO;"<!-- HERO -->
 <div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;"">B&aacute;sicos</span>
@@ -1842,11 +1842,11 @@
   <!-- Modelo -->
   <p style=""font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;"">La modelo de la foto usa talle S</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
-</div>";"";"";"";"";"SI";"";"";"";""
-"camisa-clasica-blanco";"";"";"Talle";"M";"";"";"";"";"44,500.00";"";"0.20";"2.00";"20.00";"20.00";"88";"SIMO10178";"";"";"";"";"";"";"";"";"";"";"";"";""
-"camisa-clasica-blanco";"";"";"Talle";"L";"";"";"";"";"44,500.00";"";"0.20";"2.00";"20.00";"20.00";"10";"SIMO10179";"";"";"";"";"";"";"";"";"";"";"";"";""
-"camisa-clasica-blanco";"";"";"Talle";"XL";"";"";"";"";"44,500.00";"";"0.20";"2.00";"20.00";"20.00";"93";"SIMO10180";"";"";"";"";"";"";"";"";"";"";"";"";""
-"remera-basica-negro";"Remera Basica Negro";"BASICOS";"Talle";"S";"";"";"";"";"24,900.00";"";"0.20";"3.00";"20.00";"20.00";"122";"SIMO9618";"";"SI";"NO";"<!-- HERO -->
+</div>";;;;;SI;;;;
+camisa-clasica-blanco;;;Talle;M;;;;;44,500.00;;0.20;2.00;20.00;20.00;88;SIMO10178;;;;;;;;;;;;;
+camisa-clasica-blanco;;;Talle;L;;;;;44,500.00;;0.20;2.00;20.00;20.00;10;SIMO10179;;;;;;;;;;;;;
+camisa-clasica-blanco;;;Talle;XL;;;;;44,500.00;;0.20;2.00;20.00;20.00;93;SIMO10180;;;;;;;;;;;;;
+remera-basica-negro;Remera Basica Negro;BASICOS;Talle;S;;;;;24,900.00;;0.20;3.00;20.00;20.00;122;SIMO9618;;SI;NO;"<!-- HERO -->
 <div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;"">B&aacute;sicos</span>
@@ -1924,10 +1924,10 @@
   <!-- Modelo -->
   <p style=""font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;"">La modelo de la foto usa talle S</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
-</div>";"";"";"";"";"SI";"";"";"";""
-"remera-basica-negro";"";"";"Talle";"M";"";"";"";"";"24,900.00";"";"0.20";"3.00";"20.00";"20.00";"158";"SIMO9619";"";"";"";"";"";"";"";"";"";"";"";"";""
-"remera-basica-negro";"";"";"Talle";"L";"";"";"";"";"24,900.00";"";"0.20";"3.00";"20.00";"20.00";"106";"SIMO9620";"";"";"";"";"";"";"";"";"";"";"";"";""
-"remera-basica-blanco";"Remera Basica Blanco";"BASICOS";"Talle";"S";"";"";"";"";"24,900.00";"";"0.20";"3.00";"20.00";"20.00";"53";"SIMO9615";"";"SI";"NO";"<!-- HERO -->
+</div>";;;;;SI;;;;
+remera-basica-negro;;;Talle;M;;;;;24,900.00;;0.20;3.00;20.00;20.00;158;SIMO9619;;;;;;;;;;;;;
+remera-basica-negro;;;Talle;L;;;;;24,900.00;;0.20;3.00;20.00;20.00;106;SIMO9620;;;;;;;;;;;;;
+remera-basica-blanco;Remera Basica Blanco;BASICOS;Talle;S;;;;;24,900.00;;0.20;3.00;20.00;20.00;53;SIMO9615;;SI;NO;"<!-- HERO -->
 <div style=""background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;"">
   <div style=""position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);""></div>
   <span style=""display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;"">B&aacute;sicos</span>
@@ -2005,6 +2005,6 @@
   <!-- Modelo -->
   <p style=""font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;"">La modelo de la foto usa talle S</p>
   <p style=""font-size:10px;color:#ccc;text-align:center;font-style:italic;"">Todas las medidas son aproximadas y lineales. No son de contorno.</p>
-</div>";"";"";"";"";"SI";"";"";"";""
-"remera-basica-blanco";"";"";"Talle";"M";"";"";"";"";"24,900.00";"";"0.20";"3.00";"20.00";"20.00";"138";"SIMO9616";"";"";"";"";"";"";"";"";"";"";"";"";""
-"remera-basica-blanco";"";"";"Talle";"L";"";"";"";"";"24,900.00";"";"0.20";"3.00";"20.00";"20.00";"159";"SIMO96017";"";"";"";"";"";"";"";"";"";"";"";"";""
+</div>";;;;;SI;;;;
+remera-basica-blanco;;;Talle;M;;;;;24,900.00;;0.20;3.00;20.00;20.00;138;SIMO9616;;;;;;;;;;;;;
+remera-basica-blanco;;;Talle;L;;;;;24,900.00;;0.20;3.00;20.00;20.00;159;SIMO96017;;;;;;;;;;;;;
