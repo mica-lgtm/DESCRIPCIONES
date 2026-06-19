@@ -253,16 +253,16 @@ def parse_description(html):
 
 # ── Constructor de HTML ───────────────────────────────────────────────────────
 
-def build_html(nombre, data, img_url, is_pack=False):
+def build_html(nombre, data, img_url, season='B&aacute;sicos', is_pack=False):
     tagline = data['tagline'] or ''
     tagline_quoted = f'"{tagline}"' if tagline else ''
 
     campos = [
-        ('Material',  data['material']),
+        ('Material',      data['material']),
         ('Dise&ntilde;o', data['diseno']),
-        ('Detalles',  data['detalles']),
-        ('Calce',     data['calce']),
-        ('Estilo',    data['estilo']),
+        ('Detalles',      data['detalles']),
+        ('Calce',         data['calce']),
+        ('Estilo',        data['estilo']),
     ]
     campos = [(k, v) for k, v in campos if v]
 
@@ -271,9 +271,12 @@ def build_html(nombre, data, img_url, is_pack=False):
         border = 'border-bottom:1px solid #f0efec;' if idx < len(campos) - 1 else ''
         filas.append(
             f'    <tr style="{border}">\n'
-            f'      <td style="padding:12px 0;width:100px;vertical-align:top;">'
-            f'<span style="font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#A2897B;">{key}</span></td>\n'
-            f'      <td style="padding:12px 0;font-size:13px;color:#444;line-height:1.6;">{value}</td>\n'
+            f'      <td style="padding:12px 0;width:100px;vertical-align:top;">\n'
+            f'        <span style="font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#A2897B;">{key}</span>\n'
+            f'      </td>\n'
+            f'      <td style="padding:12px 0;font-size:13px;color:#444;line-height:1.6;">\n'
+            f'        {value}\n'
+            f'      </td>\n'
             f'    </tr>'
         )
 
@@ -286,24 +289,29 @@ def build_html(nombre, data, img_url, is_pack=False):
     ale_block = ''
     if data['ale_talle']:
         ale_block = (
-            f'\n  <div style="background:#90263A;padding:14px 20px;margin-bottom:16px;display:flex;align-items:center;gap:14px;">'
-            f'<div style="width:36px;height:36px;border-radius:50%;background:#ffffff;display:flex;align-items:center;justify-content:center;flex-shrink:0;">'
-            f'<span style="font-size:14px;font-weight:700;color:#90263A;">A</span></div>'
-            f'<div><p style="font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#D5C792;margin-bottom:3px;">Referencia de talle</p>'
-            f'<p style="font-size:14px;color:#ffffff;font-weight:700;letter-spacing:0.3px;">Ale usa talle {data["ale_talle"]} en este modelo</p></div>'
-            f'</div>'
+            f'\n  <!-- Referencia Ale -->\n'
+            f'  <div style="background:#90263A;padding:14px 20px;margin-bottom:16px;display:flex;align-items:center;gap:14px;">\n'
+            f'    <div style="width:36px;height:36px;border-radius:50%;background:#ffffff;display:flex;align-items:center;justify-content:center;flex-shrink:0;">\n'
+            f'      <span style="font-size:14px;font-weight:700;color:#90263A;">A</span>\n'
+            f'    </div>\n'
+            f'    <div>\n'
+            f'      <p style="font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#D5C792;margin-bottom:3px;">Referencia de talle</p>\n'
+            f'      <p style="font-size:14px;color:#ffffff;font-weight:700;letter-spacing:0.3px;">Ale usa talle {data["ale_talle"]} en este modelo</p>\n'
+            f'    </div>\n'
+            f'  </div>'
         )
 
     modelo_line = ''
     if data['modelo_nombre'] and data['modelo_talle']:
         modelo_line = (
-            f'\n  <p style="font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;">'
+            f'\n  <!-- Modelo -->\n'
+            f'  <p style="font-size:11px;color:#aaa;text-align:center;margin-bottom:10px;">'
             f'{data["modelo_nombre"]} usa talle {data["modelo_talle"]}</p>'
         )
 
     pack_line = ''
     if is_pack:
-        pack_line = '\n  <p style="font-size:10px;color:#000;text-align:center;font-style:italic;margin:4px 0 0;">Todas las prendas del pack son del mismo talle seleccionado.</p>'
+        pack_line = '\n  <p style="font-size:10px;color:#ccc;text-align:center;font-style:italic;margin:4px 0 0;">Todas las prendas del pack son del mismo talle seleccionado.</p>'
 
     img_section = ''
     if img_url:
@@ -315,13 +323,26 @@ def build_html(nombre, data, img_url, is_pack=False):
             f'</div>'
         )
 
+    tagline_section = ''
+    if tagline_quoted and tagline_quoted != '""':
+        tagline_section = (
+            f'\n<!-- TAGLINE -->\n'
+            f'<div style="background:#ffffff;padding:20px 28px;border-left:3px solid #90263A;">\n'
+            f'  <p style="font-family:\'Playfair Display\',Georgia,serif;font-size:15px;color:#333;line-height:1.7;font-style:italic;">\n'
+            f'    {tagline_quoted}\n'
+            f'  </p>\n'
+            f'</div>'
+        )
+
     return (
         f'<!-- HERO -->\n'
         f'<div style="background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;">\n'
         f'  <div style="position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);"></div>\n'
+        f'  <span style="display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:\'Lato\',sans-serif;">{season}</span>\n'
         f'  <h1 style="font-family:\'Playfair Display\',Georgia,serif;color:#3a2a2a;font-size:26px;font-weight:600;line-height:1.2;margin-bottom:10px;">{nombre}</h1>\n'
         f'  <p style="color:#A2897B;font-size:13px;font-weight:300;letter-spacing:0.5px;font-style:italic;">{tagline}</p>\n'
-        f'</div>\n\n'
+        f'</div>\n'
+        f'{tagline_section}\n\n'
         f'<!-- CARACTERÍSTICAS -->\n'
         f'<div style="background:#ffffff;padding:24px 28px;margin-top:2px;">\n'
         f'  <p style="font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#90263A;margin-bottom:18px;">Detalles de la prenda</p>\n'
@@ -341,7 +362,7 @@ def build_html(nombre, data, img_url, is_pack=False):
         f'<div style="background:#ffffff;padding:20px 28px 24px;margin-top:2px;border-bottom:3px solid #90263A;">\n'
         f'{ale_block}\n'
         f'{modelo_line}\n'
-        f'  <p style="font-size:10px;color:#000;text-align:center;font-style:italic;margin:0;">Todas las medidas son aproximadas y lineales. No son de contorno.</p>'
+        f'  <p style="font-size:10px;color:#ccc;text-align:center;font-style:italic;">Todas las medidas son aproximadas y lineales. No son de contorno.</p>'
         f'{pack_line}\n'
         f'</div>'
     )
