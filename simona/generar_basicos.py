@@ -317,31 +317,26 @@ def build_html(nombre, data, img_url, season='Básicos', is_pack=False):
   <img src="{img_url}" alt="Guía de talles {nombre}" style="display:block;width:100%;height:auto;" />
 </div>'''
 
-    return f'''<!-- HERO -->
-<div style="background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;">
+    return f'''<div style="background:#e9eae5;padding:36px 32px 30px;text-align:center;position:relative;overflow:hidden;">
   <div style="position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#90263A,#D5C792,#A2897B);"></div>
-  <span style="display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;font-family:'Lato',sans-serif;">{season}</span>
-  <h1 style="font-family:'Playfair Display',Georgia,serif;color:#3a2a2a;font-size:26px;font-weight:600;line-height:1.2;margin-bottom:10px;">{nombre}</h1>
+  <span style="display:inline-block;border:1px solid #A2897B;color:#A2897B;font-size:9px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;padding:4px 14px;margin-bottom:18px;">{season}</span>
+  <h1 style="color:#3a2a2a;font-size:26px;font-weight:600;line-height:1.2;margin-bottom:10px;">{nombre}</h1>
   <p style="color:#A2897B;font-size:13px;font-weight:300;letter-spacing:0.5px;font-style:italic;">{tagline}</p>
 </div>
 
-<!-- TAGLINE -->
 <div style="background:#ffffff;padding:20px 28px;border-left:3px solid #90263A;">
-  <p style="font-family:'Playfair Display',Georgia,serif;font-size:15px;color:#333;line-height:1.7;font-style:italic;">
+  <p style="font-size:15px;color:#333;line-height:1.7;font-style:italic;">
     {tagline_quoted}
   </p>
 </div>
 
-<!-- CARACTERÍSTICAS -->
 <div style="background:#ffffff;padding:24px 28px;margin-top:2px;">
   <p style="font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#90263A;margin-bottom:18px;">Detalles de la prenda</p>
-
   <table style="width:100%;border-collapse:collapse;">
 {chr(10).join(filas)}
   </table>
 </div>
 
-<!-- CUIDADOS -->
 <div style="background:#e9eae5;padding:20px 28px;margin-top:2px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
   <span style="font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#90263A;flex-shrink:0;">Cuidados</span>
   <div style="display:flex;gap:8px;flex-wrap:wrap;">
@@ -351,7 +346,6 @@ def build_html(nombre, data, img_url, season='Básicos', is_pack=False):
 
 {img_section}
 
-<!-- NOTA FINAL -->
 <div style="background:#ffffff;padding:20px 28px 24px;margin-top:2px;border-bottom:3px solid #90263A;">
 {ale_block}
 {modelo_line}
